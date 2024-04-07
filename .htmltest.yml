@@ -1,0 +1,9 @@
+DirectoryPath: "public"
+IgnoreURLs:
+  - "https://l.tubaguy.com/twitter"
+CacheExpires: "30s"
+CheckFavicon: true
+EnforceHTML5: true
+EnforceHTTPS: true
+LogLevel: 3
+TestFilesConcurrently: true
