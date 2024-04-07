@@ -1,0 +1,25 @@
+.link-kick {
+  svg {
+    background: rgb(83, 252, 24);
+  }
+  background: #24272c;
+}
+
+.link-livespace {
+  background: #ff0070;
+  svg {
+    fill: white;
+  }
+}
+
+.link-money-bill {
+  svg {
+    fill: white;
+  }
+}
+
+.link-store {
+  svg {
+    fill: white;
+  }
+}
