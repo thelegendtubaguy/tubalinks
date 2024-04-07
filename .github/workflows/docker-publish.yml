@@ -34,6 +34,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: "true"
 
       # Set up BuildKit Docker container builder to be able to build
       # multi-platform images and export cache
@@ -71,12 +73,6 @@ jobs:
 
       - name: Build Hugo
         run: hugo --minify
-
-      - name: Show contents
-        run: ls
-
-      - name: Show public contents
-        run: ls public/
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
