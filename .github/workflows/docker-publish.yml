@@ -66,11 +66,17 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.119.0"
+          hugo-version: "0.124.1"
           extended: true
 
       - name: Build Hugo
         run: hugo --minify
+
+      - name: Show contents
+        run: ls
+
+      - name: Show public contents
+        run: ls public/
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
