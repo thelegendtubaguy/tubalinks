@@ -1,5 +1,6 @@
 DirectoryPath: "public"
 IgnoreURLs:
+  - "https://l.tubaguy.com/kick"
   - "https://l.tubaguy.com/twitter"
 CacheExpires: "30s"
 CheckFavicon: true
