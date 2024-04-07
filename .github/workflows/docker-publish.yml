@@ -27,9 +27,6 @@ jobs:
     permissions:
       contents: read
       packages: write
-      # This is used to complete the identity challenge
-      # with sigstore/fulcio when running outside of PRs.
-      id-token: write
 
     steps:
       - name: Checkout repository
@@ -84,5 +81,5 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-      #cache-from: type=gha
-      #cache-to: type=gha,mode=max
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
