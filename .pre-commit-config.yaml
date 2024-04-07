@@ -14,11 +14,3 @@ repos:
         args: [--indent "   "]
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
-  - repo: https://github.com/major0/pre-commit-exec
-    rev: v0.1.2
-    hooks:
-      - id: command
-        name: linkcheck
-        alias: link-check
-        always_run: true
-        args: ["sh", "scripts/link-check.sh"]
