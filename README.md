@@ -13,3 +13,4 @@ docker run -p 8080:80 ghcr.io/thelegendtubaguy/tubalinks:main
 It's simply an Nginx container with a static site. Easy peasy. Port 80 is what you want to map to.
 
 Some bullshit addition
+hmm
