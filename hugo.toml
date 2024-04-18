@@ -15,7 +15,6 @@ links = [
     { facebook = "https://l.tubaguy.com/facebook" },
     { instagram = "https://l.tubaguy.com/insta" },
     { kick = { href = "https://l.tubaguy.com/kick", text = "Kick" } },
-    { livespace = { href = "https://l.tubaguy.com/ls", text = "Live.Space" } },
     { steam = "https://l.tubaguy.com/steam" },
     { store = { href = "https://l.tubaguy.com/store", text = "Store/Merch" } },
     { tiktok = "https://l.tubaguy.com/tiktok" },
