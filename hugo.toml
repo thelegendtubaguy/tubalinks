@@ -22,6 +22,7 @@ links = [
     { spotify = { href = "https://open.spotify.com/artist/5UHWY4z4byjOVBx4pJAQWd?si=tnFPHqMRSf6--ktffCV6ZA", text = "Tuba Mansion Records" } },
     { twitch = "https://l.tubaguy.com/twitch" },
     { x = { href = "https://l.tubaguy.com/twitter", text = "Twatter" } },
+    { amazon = { href = "https://www.amazon.com/hz/wishlist/ls/KTQGOYR354BJ?ref_=wl_share", text = "Wishlist" } },
     { youtube = { href = "https://l.tubaguy.com/yt", text = "YouTube Main Channel" } },
     { youtube = { href = "https://l.tubaguy.com/vods", text = "YouTube Vod Channel" } },
 ]
