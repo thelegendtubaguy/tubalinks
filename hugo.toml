@@ -6,25 +6,26 @@ languageCode = 'en-us'
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 theme = 'lynx'
-author.name = "TheLegendTubaGuy"
 params.attribution = false
 params.description = 'Links for TheLegendTubaGuy'
 [params.author]
 links = [
     { discord = "https://l.tubaguy.com/discord" },
+    { etsy = { href = "https://l.tubaguy.com/etsy", text = "Etsy" } },
     { facebook = "https://l.tubaguy.com/facebook" },
     { instagram = "https://l.tubaguy.com/insta" },
     { kick = { href = "https://l.tubaguy.com/kick", text = "Kick" } },
     { steam = "https://l.tubaguy.com/steam" },
-    { store = { href = "https://l.tubaguy.com/store", text = "Store/Merch" } },
+    { store = { href = "https://l.tubaguy.com/store", text = "TLTG Store/Merch" } },
     { tiktok = "https://l.tubaguy.com/tiktok" },
     { money-bill = { href = "https://l.tubaguy.com/tips", text = "Tips/Donos/Mediashare" } },
     { spotify = { href = "https://open.spotify.com/artist/5UHWY4z4byjOVBx4pJAQWd?si=tnFPHqMRSf6--ktffCV6ZA", text = "Tuba Mansion Records" } },
     { twitch = "https://l.tubaguy.com/twitch" },
     { x = { href = "https://l.tubaguy.com/twitter", text = "Twatter" } },
     { amazon = { href = "https://www.amazon.com/hz/wishlist/ls/KTQGOYR354BJ?ref_=wl_share", text = "Wishlist" } },
-    { youtube = { href = "https://l.tubaguy.com/yt", text = "YouTube Main Channel" } },
-    { youtube = { href = "https://l.tubaguy.com/vods", text = "YouTube Vod Channel" } },
+    { youtube = { href = "https://l.tubaguy.com/yt", text = "TLTG" } },
+    { youtube = { href = "https://l.tubaguy.com/vods", text = "Vod" } },
+    { youtube = { href = "https://l.tubaguy.com/vods", text = "TubaMakes" } },
 ]
 name = "TheLegendTubaGuy"
 image = "img/author.png"
