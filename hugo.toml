@@ -25,7 +25,7 @@ links = [
     { amazon = { href = "https://www.amazon.com/hz/wishlist/ls/KTQGOYR354BJ?ref_=wl_share", text = "Wishlist" } },
     { youtube = { href = "https://l.tubaguy.com/yt", text = "TLTG" } },
     { youtube = { href = "https://l.tubaguy.com/vods", text = "Vod" } },
-    { youtube = { href = "https://l.tubaguy.com/vods", text = "TubaMakes" } },
+    { youtube = { href = "https://l.tubaguy.com/3OBpa", text = "TubaMakes" } },
 ]
 name = "TheLegendTubaGuy"
 image = "img/author.png"
