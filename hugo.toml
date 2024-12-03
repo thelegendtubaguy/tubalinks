@@ -14,6 +14,7 @@ links = [
     { etsy = { href = "https://l.tubaguy.com/etsy", text = "Etsy" } },
     { facebook = "https://l.tubaguy.com/facebook" },
     { instagram = "https://l.tubaguy.com/insta" },
+    { instagram = { href = "https://l.tubaguy.com/tminsta", text = "Tuba Makes Insta" } },
     { kick = { href = "https://l.tubaguy.com/kick", text = "Kick" } },
     { steam = "https://l.tubaguy.com/steam" },
     { store = { href = "https://l.tubaguy.com/store", text = "TLTG Store/Merch" } },
